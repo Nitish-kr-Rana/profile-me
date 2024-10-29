@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="wrapper">
+            <div class="card-wrapper">
+                <div>
+                    <img src="DSC_0043.JPG" alt="image">
+                </div>
+                <div>
+                    <h2>Nitish kumar</h2>
+                </div>
+                <div>
+                    <h3>Founder,Code Help</h3>
+                </div>
+                
+                <div class="bottom-group">
+                    <button onclick="openModal()" class="btn-share btn-card">
+                        <i class="fa-solid fa-share"></i>
+                        <div>Share My Profile</div>
+                    </button>
+                    <button class="btn-follow btn-card">Follow Me</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="model">
+        <div class="model-header">
+            <h1>Share My Profile</h1>
+            <div>
+                <i onclick="closeModel()" class="fa-solid fo-xmark close" ></i>
+            </div>
+        </div>
+        <div class="mini-container">
+            <h3>Share this via</h3>
+
+            <div class="icon-container">
+                <a href="https://www.instagram.com/nitish_kr_rana/" class="icon" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nitish-kumar-8294402a0/" class="icon" id="linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Nitish-kr-Rana" class="icon" id="github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://t.me/TGFcricket" class="icon" id="telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="#" class="icon" id="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" onclick="closeModel()"></div>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
